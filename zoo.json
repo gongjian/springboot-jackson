@@ -1,0 +1,12 @@
+{
+  "name" : "SH Wild Park",
+  "city" : "ShangHai",
+  "animals" : [ {
+    "@type" : "Lion",
+    "type" : "carnivorous"
+  }, {
+    "@type" : "Elephant",
+    "type" : "herbivorous",
+    "xxx" : "xxx"
+  } ]
+}
