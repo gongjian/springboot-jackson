@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.util.StdDateFormat;
 public class JsonTest {
 
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
-		String str = "{\"birthDay\":\"1986-05-04\"}";
+		String str = "{\"birthDay\":\"1986-05-04\", \"name\":\"james\"}";
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setTimeZone(TimeZone.getTimeZone("GMT+8"));
 		
